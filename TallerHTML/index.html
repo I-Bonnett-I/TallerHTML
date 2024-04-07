@@ -7,28 +7,73 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div style="height: 2px;">
-        </div>
-        <br>
+        
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <h1 class="text-center">Thomas Bonnett</h1>
+            <div class="col">
+                <img src="images/Patineta astronauta _ Vector Premium.jpeg" alt="Skate" clas="img-fluid">
+            </div>
+            <div class="col">
+                <div class="text" style="height: 100vh">
+                    <h1 style="font-size: 60px;">Thomas Bonnett</h1>
+                    <br>
+                    <p style="font-size: 25px;">Mi nombre es Thomas Bonnett y soy estudiante de 4to semestre de ingenieria de sistemas en la <a target="_blank" href="https://uniandes.edu.co/" style="text-decoration: none;">Universidad de los Andes.</a>
+                                            Mis hobbies favoritos son montar skate, jugar futbol y componer música. <a target="_self" href="#Formulario" style="text-decoration: none;">Da click aqui para suscribirte.</a>
+                    </p>
+                    <br>
+                        <ul>
+                            <li >
+                                <a href="https://github.com/I-Bonnett-I" target="_blank" id="git-button">
+                                <img src="images\github.png" width="50px" height="auto"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thomas-bonnett/" target="_blank" id="ln-button">
+                                    <img src="images\linkedin-logo.png" width="50px" height="auto">
+                                </a>
+                            </li>
+                        </ul>
+                </div> 
             </div>
         </div>
-        <br>
-        <div class="row">
-            <div class="col-6">
-                <img src="images/Patineta astronauta _ Vector Premium.jpeg" alt="Skate">
-            </div>
-            <div class="col"> 
-                <p>
-                    Mi nombre es Thomas Bonnett y soy estudiante de 4to semestre de ingenieria de sistemas en la universidad de los Andes.
-                    En esta página dare a conocer un poco de mi y de las cosas que disfuto hacer en mi tiempo libre.
-                </p>
+        <div id="Formulario" style="height: 100vh">
+            <h2>Ingresa tus datos para más información</h1>
+            <br>
+            <div class="table-responsive">
+                <table class="table">
 
+                    <tr>
+                        <th>Nombre</th>
+                        <td>
+                            <input type="text " class="input-small" style="background-color: rgb(58, 57, 57);">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <th>Celular</th>
+                        <td>
+                            <input type="text " class="input-small" style="background-color: rgb(58, 57, 57);">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <th>E-mail</th>
+                        <td>
+                            <input type="text " class="input" style="background-color: rgb(58, 57, 57);">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <th>Intereses</th>
+                        <td>
+                            <input type="text " class="input-small" style="background-color: rgb(58, 57, 57);">
+                        </td>
+                    </tr>
+    
+                </table>
                 
             </div>
+            <br>
+            <a class="btn btn-success" onclick=" ">Suscribirse</a>
+        </div>
     </div>
 </body>
 </html>
